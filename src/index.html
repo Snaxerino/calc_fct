@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/output.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+  	<title>Cálculo FCT</title>
+  </head>
+  <body class="h-min">
+  <img src="assets/imgs/bg.jpeg" class="w-full md:block hidden md:h-screen bg-cover">
+    <div class="flex flex-col gap-4 p-8 md:absolute top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:w-[850px]
+     bg-gradient-to-b from-cyan-500 to-blue-500 md:bg-none md:bg-black/10 border border-white/20 md:rounded-3xl backdrop-blur-3xl">
+		<!-- Info página -->
+		<div class="space-y-2">
+			<h2 class="text-3xl font-semibold text-white">Cálculo de FCT</h2>
+			<p class="text-white font-medium">Preencha os campos para calcular a sua média de FCT.</p>
+		</div>
+		<div class="w-full border-[0.5px] border-white/40"></div>
+		<div class="flex flex-col justify-between gap-4 items-center md:items-start">
+			<p class="text-lg font-medium text-white">Calcular FCT 11º Ano</p>
+			<div class="flex flex-col md:flex-row gap-4 w-full">
+				<!-- Participação 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_participacao" class="text-sm font-medium whitespace-nowrap text-white">Participação</label>
+					<input type="number" id="11_participacao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Autonomia 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_autonomia" class="text-sm font-medium whitespace-nowrap text-white">Autonomia</label>
+					<input type="number" id="11_autonomia" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Responsabilidade 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_responsabilidade" class="text-sm font-medium whitespace-nowrap text-white">Responsabilidade</label>
+					<input type="number" id="11_responsabilidade" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Relacionamento 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_relacionamento" class="text-sm font-medium whitespace-nowrap text-white">Relacionamento</label>
+					<input type="number" id="11_relacionamento" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row gap-4 w-full">
+				<!-- Pertinência 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_pertinencia" class="text-sm font-medium whitespace-nowrap text-white">Pertinência</label>
+					<input type="number" id="11_pertinencia" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Rigor 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_rigor" class="text-sm font-medium whitespace-nowrap text-white">Rigor</label>
+					<input type="number" id="11_rigor" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Estruturação 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_estruturacao" class="text-sm font-medium whitespace-nowrap text-white">Estruturado</label>
+					<input type="number" id="11_estruturacao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Reflexão 11º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="11_reflexao" class="text-sm font-medium whitespace-nowrap text-white">Reflexão</label>
+					<input type="number" id="11_reflexao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+			</div>
+			<p class="text-lg font-medium text-white">Calcular FCT 12º Ano</p>
+			<div class="flex flex-col md:flex-row gap-4 w-full">
+				<!-- Participação 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_participacao" class="text-sm font-medium whitespace-nowrap text-white">Participação</label>
+					<input type="number" id="12_participacao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Autonomia 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_autonomia" class="text-sm font-medium whitespace-nowrap text-white">Autonomia</label>
+					<input type="number" id="12_autonomia" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Responsabilidade 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_responsabilidade" class="text-sm font-medium whitespace-nowrap text-white">Responsabilidade</label>
+					<input type="number" id="12_responsabilidade" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Relacionamento 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_relacionamento" class="text-sm font-medium whitespace-nowrap text-white">Relacionamento</label>
+					<input type="number" id="12_relacionamento" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row gap-4 w-full">
+				<!-- Pertinência 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_pertinencia" class="text-sm font-medium whitespace-nowrap text-white">Pertinência</label>
+					<input type="number" id="12_pertinencia" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Rigor 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_rigor" class="text-sm font-medium whitespace-nowrap text-white">Rigor</label>
+					<input type="number" id="12_rigor" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Estrutura 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_estruturacao" class="text-sm font-medium whitespace-nowrap text-white">Estruturação</label>
+					<input type="number" id="12_estruturacao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center"/>
+				</div>
+				<!-- Reflexão 12º ano -->
+				<div class="flex flex-col gap-1.5 md:w-fullw-full">
+					<label for="12_reflexao" class="text-sm font-medium whitespace-nowrap text-white">Reflexão</label>
+					<input type="number" id="12_reflexao" placeholder="1 a 200" class="text-sm
+				bg-transparent outline-none placeholder-white/70 text-white
+				caret-white focus:border-blue-500 border rounded-lg border-neutral-200 px-3 py-2.5 gap-2
+				hover:shadow-around duration-300 flex items-center "/>
+				</div>
+			</div>
+		</div>
+		<div class="w-full border-[0.5px] border-white/40"></div>
+		<div class="flex flex-col md:flex-row gap-2">
+			<div class="flex gap-4 w-full">
+				<p class="text-white">11º ano:</p>
+				<p class="text-white" id="11ano"></p>
+			</div>
+			<p class="text-white">∙</p>
+			<div class="flex gap-4 w-full">
+				<p class="text-white">12º ano:</p>
+				<p class="text-white" id="12ano"></p>
+			</div>
+			<p class="text-white">∙</p>
+			<div class="flex gap-4 w-full">
+				<p class="text-white">Total:</p>
+				<p class="text-white" id="final"></p>
+			</div>
+		</div>
+    </div>
+  <div class="hidden absolute top-3 right-3 border p-3 shadow-sm rounded-xl w-[280px] bg-black/10 border-white backdrop-blur-md" id="alertToast">
+	  <div class="flex gap-3 items-center">
+		  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" class="w-6 h-6">
+			  <path d="M12.7777 8V12M12.7777 16H12.7877M22.7777 12C22.7777 17.5228 18.3006 22 12.7777 22C7.25486 22
+			  2.77771 17.5228 2.77771 12C2.77771 6.47715 7.25486 2 12.7777 2C18.3006 2 22.7777 6.47715 22.7777 12Z"
+					stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		  </svg>
+		  <div class="flex gap-1 flex-col w-full">
+			  <div class="flex justify-between items-center">
+				  <h4 class="text-lg text-white font-medium">Erro!</h4>
+				  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none" class="w-5 h-5 cursor-pointer" id="fechar_toast">
+					  <path d="M18.6666 6L6.66663 18M6.66663 6L18.6666 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				  </svg>
+			  </div>
+			  <p class="text-white text-sm" id="msg_erro"></p>
+		  </div>
+	  </div>
+  </div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
